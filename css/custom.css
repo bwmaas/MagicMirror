@@ -1,0 +1,49 @@
+:root {
+  --color-background: #264653;
+  --color-text: #2A9D8F;
+  --color-text-dimmed: #8AB17D;
+  --color-text-bright: #BABB74;
+}
+
+.MMM-MonthlyCalendar {
+  background-color: #287271;
+  box-shadow: -5px 5px 5px #153542;
+  border-radius: 10px;
+}
+
+.MMM-MonthlyCalendar .module-content table tr th {
+  border-left: 2px solid #264653;
+  border-right: 2px solid #264653;
+}
+
+.MMM-MonthlyCalendar .module-content table tr th.header {
+  color: #8AB17D;
+}
+
+.MMM-MonthlyCalendar .module-content table tr td.cell div {
+  color: #BABB74;
+  text-align: left;
+  padding: 2px;
+}
+
+.MMM-MonthlyCalendar .module-content table tr td {
+  border: 2px solid #264653;
+}
+
+.MMM-MonthlyCalendar .module-content table tr td.cell div.event {
+  color: #333;
+}
+
+.MMM-HealthEPro-Menus {
+  width: 360px;
+}
+
+.MMM-HealthEPro-Menus .xsmall {
+  font-size: 10px;
+  line-height: 15px;
+}
+
+.MMM-HealthEPro-Menus .small {
+  font-size: 15px;
+  line-height: 20px;
+}
